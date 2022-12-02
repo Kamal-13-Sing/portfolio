@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#header">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img class="fas" src="image/cross.png"  height="20px" width="20px" onclick="closemenu()">
+                </ul>
+                <img class="fas" src="image/menu.png"  height="20px" width="20px" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <p> Developer<img src="image/react.png" class="react"></p>
+                <h1>Hi, I'm<span> Kamal</span> Thapa<br> From Nepal</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------about ------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/my.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me- Hi</h1>
+                    <p>I am from the beautiful city of Butwal in Nepal. i am passionate about programming(particularly java based)
+                        and love to design logo and web sites.
+                    </p>
+                    <br>
+                    <p>
+                        This is my first Portfolio project totally based on (HTML, Css and JavaScript). i had complete my 3rd Sem of (BIM) 
+                        according to 2020 August. i tried to make good looking Portfolio with my base knowledge of web technology.
+                        Thank You
+                        
+                    </p><br>
+                          <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                          </div>
+
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>App</span><br>Java Developer/ React Developer / Web app Developer</li>
+                                <li><span>UI/UX</span><br>Desigining Web pages / logo Desigining</li>
+                                <li><span>Graphics</span><br>Video Editing / photo Editing<br></li>
+                                
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - current</span><br>React Native Developer</li>
+                                <li><span>2021 - 2022 </span><br>Internship</li>
+                                <li><span>2020 - 2022</span><br>Logo Design & video Editor at youtube</li>
+                                <li><span>2019 - 2020</span><br>Web Developer</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - current</span><br>Running Bachelor in Information Management (BIM)</li>
+                                <li><span> 2020</span><br>Complete +2 with Computer Science</li>
+                                <li><span>2020 - 2021</span><br>1 year Professional Deploma in Computer Application</li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------Services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="image/android.png" width="100px" height="100px">
+                    <img src="image/apple.png" width="100px" height="100px">
+
+                    <h2 style="color:  rgb(9, 255, 0)">Software Developing</h2>
+                    <p>Software Development is the building and maintenance of software, its the work that happens behind
+                        the scenes to make a software with great user experience, work fast and perform well.
+                    </p>
+                    <a href="#" style="color:rgb(255, 238, 0);">learn more</a>
+                </div>
+                <div>
+                   <img src="image/photo.png" width="100px" height="100px">
+                    <h2 style="color: rgb(9, 255, 0)">Editing</h2>
+                    <p>For better experience of Audience make your photos and videos more attractive.
+                        i have 2-3 year of experience with logo design, photo editing and video editing for youtube channel.
+                    </p>
+                    <a href="#" style="color:rgb(255, 238, 0);">learn more</a>
+                </div>
+                <div>
+                    <img src="image/uiux.png" width="100px" height="100px">
+                    <h2 style="color: rgb(9, 255, 0);">UI/UX Design</h2>
+                    <p>User experience (UX) designers focus on the interaction that users have with products, like websites, 
+                        apps, and physical objects. They make those everyday interactions useful, enjoyable, and accessible.
+                    </p>
+                    <a href="#" style="color:rgb(255, 238, 0);">learn more</a>
+                </div>  
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div> 
+    </div>
+
+    <!-----------Contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="image/email.png"height="40px" width="40px">donbimal383@gmail.com</p>
+                    <p><img src="image/phone.png" height="40px" width="40px">9826426232</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kamalsingjali.mogoor"><img src="image/facebook.png" height="40px" width="40px"></a>
+                        <a href="https://twitter.com/sinjali051"><img src="image/twiter.png" height="40px" width="40px"></a>
+                        <a href="https://github.com/account"><img src="image/github.png" height="40px" width="40px"></a>
+                        <a href="https://www.linkedin.com/in/kamal-thapa-27b344237"><img src="image/linkedin.png" height="40px" width="40px"></a>
+                    </div> 
+                </div>
+                <div class="contact-rigth">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Full Name" required><br>
+                        <input type="email" name="Email" placeholder="Your Email" required><br>
+                        <textarea type="name" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button onclick="submit()" class="btn2">Submit</button>
+                        <span>Sorry Form Feature is not available Now!!</span>
+                    </form>      
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Kamal Thapa</p>
+        </div>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
